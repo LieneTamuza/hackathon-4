@@ -50,8 +50,8 @@ function Products() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quis in quam amet assumenda esse possimus eaque hic voluptatem dolores aperiam itaque reprehenderit rem blanditiis ex commodi, veritatis dolorem pariatur.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quis in quam amet assumenda esse possimus eaque hic voluptatem dolores aperiam itaque reprehenderit rem blanditiis ex commodi, veritatis dolorem pariatur.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quis in quam amet assumenda esse possimus eaque hic voluptatem dolores aperiam itaque reprehenderit rem blanditiis ex commodi, veritatis dolorem pariatur.</p>
-                    <div><strong>9.99 EUR</strong></div>
-                    <button className="btn btn-dark btn-lg">Add to cart</button>
+                    <div className="my-5"><strong>9.99 EUR</strong></div>
+                    <button className="btn btn-dark btn-lg" onClick={()=>{ alert('Added to cart!'); }}>Add to cart</button>
                 </div>
             </div>
         </div>
