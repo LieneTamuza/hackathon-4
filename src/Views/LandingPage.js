@@ -1,3 +1,4 @@
+import Categories from '../Components/Categories';
 import Slider from '../Components/Slider';
 
 function LandingPage() {
@@ -5,8 +6,9 @@ function LandingPage() {
 
     return(
         <div className="container">
-            <div className="row">
+            <div className="row my-3 justify-content-center">
                 <Slider />
+                <Categories />
             </div>
         </div>
     )

@@ -1,0 +1,10 @@
+.categories-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.categories-link:hover{
+    text-decoration: none;
+    color:inherit;
+    background-color: lightgray;
+}
