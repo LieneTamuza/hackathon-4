@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import CartPage from './Components/CartPage';
-import CategoriesPage from './Components/CategoriesPage';
+import CartPage from './Views/CartPage';
+import CategoriesPage from './Views/CategoriesPage';
 import Footer from './Components/Footer';
 import Header from "./Components/Header";
-import LandingPage from './Components/LandingPage';
+import LandingPage from './Views/LandingPage';
 
 
 function App() {
