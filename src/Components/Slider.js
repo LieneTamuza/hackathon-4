@@ -1,6 +1,7 @@
 import Slider1 from '../Assets/Images/Slider1.JPG';
 import Slider2 from '../Assets/Images/Slider2.JPG';
 import Slider3 from '../Assets/Images/Slider3.JPG';
+import  '../Assets/css/Slider.css';
 
 function Slider() {
 
@@ -17,22 +18,22 @@ function Slider() {
                     <div className="carousel-item active">
                         <img src={Slider1} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>High quality Landscape pcitures fro Nature Lovers</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Landscape pictures from Nature Lovers</h5>
+                            <p>We offer a wide varaity of high quality pictures taken by professionals or just pure nature lovers tat heart! </p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={Slider2} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Marvelous close-ups of different flowrs for Nature Lovers</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Marvelous close-ups of different flowers for Nature Lovers</h5>
+                            <p>In our Flowers section you can find a flower for every heart and eye.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                     <img src={Slider3} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Amazing pictures of cats for Cat Lovers</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <p>For all you cat lower out there, check out our section of adorable, funny cat pictures!</p>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
