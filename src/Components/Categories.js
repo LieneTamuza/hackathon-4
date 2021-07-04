@@ -1,12 +1,12 @@
+import { NavLink } from 'react-router-dom';
 import Category1 from '../Assets/Images/Category1.JPG';
 import Category2 from '../Assets/Images/Category2.JPG';
 import Category3 from '../Assets/Images/Category3.JPG';
-import { NavLink } from 'react-router-dom';
 import '../Assets/css/Categories.css';
 
 const categoriesArray = [
     {
-        name: 'Lanscapes',
+        name: 'Landscapes',
         image: Category1,
         description: 'Look through different high-quality lanscape pictures both from professionals as well as amateur photographers.'
     },
