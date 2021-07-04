@@ -1,4 +1,5 @@
 import { SRLWrapper } from "simple-react-lightbox";
+// import { useParams } from 'react-router-dom';
 import cat7 from '../Assets/Images/cats7.JPG';
 import cat1 from '../Assets/Images/cats1.JPG';
 import cat2 from '../Assets/Images/cats2.JPG';
@@ -8,6 +9,7 @@ import cat5 from '../Assets/Images/cats5.JPG';
 import cat6 from '../Assets/Images/cats6.JPG';
 
 function ProductPage() {
+    // const { productId } = useParams();
 
     return (
         <div className="container mt-3">

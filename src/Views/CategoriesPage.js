@@ -2,7 +2,6 @@ import CategoriesList from '../Components/CategoriesList';
 
 function CategoriesPage() {
 
-
     return(
 
         <div className="container mb-5">

@@ -8,6 +8,7 @@ import ProductPage from './Views/ProductPage';
 import CartPage from './Views/CartPage';
 
 function App() {
+
     return (
         <div>
             <Router>
@@ -20,10 +21,10 @@ function App() {
                     <Route exact path='/categories'>
                         <CategoriesPage />
                     </Route>
-                    <Route exact path='/categories/category'>
+                    <Route exact path='/categories/:categoryId'>
                         <CategoryPage />
                     </Route>
-                    <Route exact path='/categories/category/product'>
+                    <Route exact path='/categories/:categoryId/:productId'>
                         <ProductPage />
                     </Route>
                     <Route exact path='/cart'>
