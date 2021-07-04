@@ -1,8 +1,15 @@
+import ProductList from "../Components/ProductList";
+
 function CategoryPage() {
 
     return (
-        <div>
-            <h2>Category + products</h2>
+        <div className="container">
+            <div className="row">
+                <h2>Category ...</h2>
+            </div>
+            <div className="row">
+                <ProductList />
+            </div>
         </div>
     )
 }

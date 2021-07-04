@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
-import cat1 from '../Assets/Images/cat1.JPG';
-import cat2 from '../Assets/Images/cat2.JPG';
-import cat3 from '../Assets/Images/cat3.JPG';
-import cat4 from '../Assets/Images/cat4.JPG';
-import cat5 from '../Assets/Images/cat5.JPG';
+import cat1 from '../Assets/Images/cats1.JPG';
+import cat2 from '../Assets/Images/cats2.JPG';
+import cat3 from '../Assets/Images/cats3.JPG';
+import cat4 from '../Assets/Images/cats4.JPG';
+import cat5 from '../Assets/Images/cats5.JPG';
 
 const productsArray = [
     {
@@ -68,7 +68,7 @@ const productsArray = [
     },
 ]
 
-function Products() {
+function ProductList() {
 
     return (
         <div className="container">
@@ -93,4 +93,4 @@ function Products() {
     )
 }
 
-export default Products;
+export default ProductList;
