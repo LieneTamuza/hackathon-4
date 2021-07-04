@@ -45,12 +45,11 @@ function Category() {
 
     return (
         <div className="row">
-            <h2 className='mb-3'>At some point this will work as it should</h2>
             {categoryToShow.map((category) => {
                 return (
                     <div className="row">
                         <div className="card">
-                            <h5 className="card-title ps-3">{category.name}</h5>
+                            <h5 className="card-title ps-3 mt-3">{category.name}</h5>
 
                             <div className="row g-0">
                                 <div className="col-md-4 justify-content-center align-self-center px-1 pb-3">

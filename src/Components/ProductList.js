@@ -8,11 +8,11 @@ import landscape6 from '../Assets/Images/landscape6.JPG';
 import landscape4 from '../Assets/Images/landscape4.JPG';
 import flowers2 from '../Assets/Images/flowers2.JPG';
 import flowers4 from '../Assets/Images/flowers4.jpg';
-import mug1 from '../Assets/Images/Mugs/mug1.png';
-import mug4 from '../Assets/Images/Mugs/mug4.png';
-import tshirtFlowers from '../Assets/Images/Tshirts/tshirt2-1.png';
-import tshirtLandscapes from '../Assets/Images/Tshirts/tshirt4-1.png';
-import tshirtCats from '../Assets/Images/Tshirts/tshirt3-1.png';
+import mug1 from '../Assets/Images/mugs/mug1.png';
+import mug4 from '../Assets/Images/mugs/mug4.png';
+import tshirtFlowers from '../Assets/Images/tshirts/tshirt2-1.png';
+import tshirtLandscapes from '../Assets/Images/tshirts/tshirt4-1.png';
+import tshirtCats from '../Assets/Images/tshirts/tshirt3-1.png';
 
 
 const productsArray = [
