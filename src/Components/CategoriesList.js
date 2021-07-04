@@ -1,31 +1,34 @@
 import { NavLink } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Category1 from '../Assets/Images/Category1.JPG';
 import Category2 from '../Assets/Images/Category2.JPG';
 import Category3 from '../Assets/Images/Category3.JPG';
 import '../Assets/css/CategoriesList.css'
 
-function CategoriesList() {
-
-    const categoriesArray = [
+const categoriesArray = [
         {
             name: 'Landscapes',
             image: Category1,
             description: 'Look through different high-quality lanscape pictures both from professionals as well as amateur photographers.',
-            id: 'landscapes'
+            categoryId: 'landscapes'
         },
         {
             name: 'Flowers',
             image: Category2,
             description: 'Find a perfect flower picture for your home interior to lighten up the room or serve as a perfect gift for someone you love.',
-            id: 'flowers'
+            categoryId: 'flowers'
         },
         {
             name: 'Cats',
             image: Category3,
             description: 'For all you cat lovers out there - browse through these amazing, funny and sometimes even awkwared pictures of cats. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis ad dolorum id laborum, harum non et quisquam. Optio odit labore autem, dicta corporis consequatur cupiditate similique fugit consequuntur facere eveniet!',
-            id: 'cats'
+            categoryId: 'cats'
         },
     ]
+
+function CategoriesList() {
+    const { categoryId } = useParams();
+    
 
     return (
         <div className="row">
@@ -42,7 +45,9 @@ function CategoriesList() {
                         <div className="card">
                             <div className="row g-0">
                                 <div className="col-md-4 justify-content-center align-self-center px-1 pb-3">
-                                    <NavLink to="/categories/category" className="nav-link">
+                                    <NavLink to={{
+                                        pathname:`/categories/${category.categoryId}`,
+                                    }} className="nav-link">
                                         <img src={category.image} className="img-fluid rounded" alt="..." />
                                     </NavLink>
                                 </div>
