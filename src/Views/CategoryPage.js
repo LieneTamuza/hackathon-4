@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import CategoriesList from "../Components/CategoriesList";
+import Category from "../Components/Category";
 import ProductList from "../Components/ProductList";
 
 function CategoryPage() {
@@ -8,7 +8,7 @@ function CategoryPage() {
     return (
         <div className="container">
             <div className="row">
-                <CategoriesList />
+                <Category />
             </div>
             <div className="row">
                 <ProductList />
