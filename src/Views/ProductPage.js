@@ -11,7 +11,7 @@ function ProductPage() {
 
     return (
         <div className="container mt-3">
-            <h2 className="my-3">Products ...</h2>
+            <h2 className="my-3">Product ...</h2>
             <div className="row mb-5">
                 <div className="col-12 col-md-5">
                     <SRLWrapper>

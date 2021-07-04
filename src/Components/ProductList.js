@@ -77,7 +77,7 @@ function ProductList() {
                     return (
                         <div className="col ">
                             <div className="card" style={{ width: "200px" }}>
-                                <NavLink to="/categories/category/products" className="nav-link">
+                                <NavLink to="/categories/category/product" className="nav-link">
                                     <img src={product.image} className="card-img-top rounded" alt="..." />
                                 </NavLink>
                                 <div className="card-body">
