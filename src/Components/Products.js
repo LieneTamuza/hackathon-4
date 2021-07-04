@@ -76,7 +76,7 @@ function Products() {
                 {productsArray.map((product) => {
                     return (
                         <div className="col ">
-                            <div className="card" style={{width: "200px"}}>
+                            <div className="card" style={{ width: "200px" }}>
                                 <NavLink to="/tags" className="nav-link">
                                     <img src={product.image} className="card-img-top rounded" alt="..." />
                                 </NavLink>

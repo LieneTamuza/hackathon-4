@@ -28,23 +28,23 @@ function Categories() {
         <div className="row mt-3">
             <h3 className='py-2'>Cateogries</h3>
             {categoriesArray.map((category) => {
-                return(
-                <div className="col mb-5">
-                    <div className="card">
-                        <div className="row g-0">
-                            <NavLink className='categories-link' to='/'><h5 className="card-title text-center pt-2">{category.name}</h5></NavLink>
-                            <hr />
-                            <div className="col-md-4 justify-content-center align-self-center px-1 pb-3">
-                                <img src={category.image} className="img-fluid rounded" alt="..." />
-                            </div>
-                            <div className="col-md-8 justify-content-center align-self-center">
-                                <div className="card-text px-2">
-                                    <p >{category.description}</p>
+                return (
+                    <div className="col mb-5">
+                        <div className="card">
+                            <div className="row g-0">
+                                <NavLink className='categories-link' to='/'><h5 className="card-title text-center pt-2">{category.name}</h5></NavLink>
+                                <hr />
+                                <div className="col-md-4 justify-content-center align-self-center px-1 pb-3">
+                                    <img src={category.image} className="img-fluid rounded" alt="..." />
+                                </div>
+                                <div className="col-md-8 justify-content-center align-self-center">
+                                    <div className="card-text px-2">
+                                        <p >{category.description}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>)
+                    </div>)
             })}
             {/* <div className="col mb-5">
                 <div className="card">

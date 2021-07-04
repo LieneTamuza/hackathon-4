@@ -7,7 +7,7 @@ import cat4 from '../Assets/Images/cats4.JPG';
 import cat5 from '../Assets/Images/cats5.JPG';
 import cat6 from '../Assets/Images/cats6.JPG';
 
-function Products() {
+function ProductPage() {
 
     return (
         <div className="container mt-3">
@@ -58,4 +58,4 @@ function Products() {
     )
 }
 
-export default Products;
+export default ProductPage;

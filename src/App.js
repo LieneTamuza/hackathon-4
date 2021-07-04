@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import CartPage from './Views/CartPage';
 import CategoriesPage from './Views/CategoriesPage';
 import Footer from './Components/Footer';
-import Header from "./Components/Header";
+import Header from './Components/Header';
 import LandingPage from './Views/LandingPage';
 
 
@@ -21,11 +21,11 @@ function App() {
                     <Route exact path='/cart'>
                         <CartPage />
                     </Route>
-                    </Switch>
-                    <Footer />
+                </Switch>
+                <Footer />
             </Router>
         </div>
-            );
+    );
 }
 
-            export default App;
+export default App;
