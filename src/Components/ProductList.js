@@ -72,7 +72,7 @@ function ProductList() {
 
     return (
         <div className="container">
-            <div className="row">
+            <div className="row mb-5">
                 {productsArray.map((product) => {
                     return (
                         <div className="col ">
