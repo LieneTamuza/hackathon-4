@@ -9,19 +9,19 @@ const categoriesArray = [
         name: 'Landscapes',
         image: Category1,
         description: 'Look through different high-quality lanscape pictures both from professionals as well as amateur photographers.',
-        id: 'landscapes'
+        categoryId: '1'
     },
     {
         name: 'Flowers',
         image: Category2,
         description: 'Find a perfect flower picture for your home interior to lighten up the room or serve as a perfect gift for someone you love.',
-        id: 'flowers'
+        categoryId: '2'
     },
     {
         name: 'Cats',
         image: Category3,
         description: 'For all you cat lovers out there - browse through these amazing, funny and sometimes even awkwared pictures of cats.',
-        id: 'cats'
+        categoryId: '3'
     },
 ]
 

@@ -10,61 +10,71 @@ const productsArray = [
         image: cat1,
         name: 'Product 1',
         price: '9.99 EUR',
-        category: 'Landscapes'
+        productId: '100',
+        categoryId: '1'
     },
     {
         image: cat2,
         name: 'Product 2',
         price: '10.99 EUR',
-        category: 'Flowers'
+        productId: '101',
+        categoryId: '1'
     },
     {
         image: cat3,
         name: 'Product 3',
         price: '11.99 EUR',
-        category: 'Cats'
+        productId: '102',
+        categoryId: '1'
     },
     {
         image: cat4,
         name: 'Product 4',
         price: '12.99 EUR',
-        category: 'Cats'
+        productId: '103',
+        categoryId: '2'
     },
     {
         image: cat5,
         name: 'Product 5',
-        price: '12.99 EUR',
-        category: 'Cats'
+        price: '13.99 EUR',
+        productId: '104',
+        categoryId: '2'
     },
     {
         image: cat1,
         name: 'Product 1',
         price: '9.99 EUR',
-        category: 'Landscapes'
+        productId: '105',
+        categoryId: '2'
     },
     {
         image: cat2,
         name: 'Product 2',
         price: '10.99 EUR',
-        category: 'Flowers'
+        productId: '106',
+        categoryId: '3'
     },
     {
         image: cat3,
         name: 'Product 3',
         price: '11.99 EUR',
-        category: 'Cats'
+        productId: '107',
+        categoryId: '3'
     },
     {
         image: cat4,
         name: 'Product 4',
         price: '12.99 EUR',
-        category: 'Cats'
+        productId: '108',
+        categoryId: '3'
     },
     {
         image: cat5,
         name: 'Product 5',
-        price: '12.99 EUR',
-        category: 'Cats'
+        price: '13.99 EUR',
+        productId: '109',
+        categoryId: '3'
     },
 ]
 
