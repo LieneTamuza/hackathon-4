@@ -35,7 +35,7 @@ const productsArray = [
         name: 'Pull-over Mountains',
         price: '28.99 EUR',
         productId: '202',
-        categoryId: 'Landscapes'
+        categoryId: 'Landscapes' 
     },
     {
         image: landscape4,

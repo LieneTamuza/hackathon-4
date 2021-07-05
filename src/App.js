@@ -31,7 +31,6 @@ function App() {
                         <CartPage />
                     </Route>
                 </Switch>
-
                 <Footer />
             </Router>
         </div>
