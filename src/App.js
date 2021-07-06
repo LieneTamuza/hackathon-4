@@ -6,6 +6,7 @@ import CategoriesPage from './Views/CategoriesPage';
 import CategoryPage from './Views/CategoryPage';
 import ProductPage from './Views/ProductPage';
 import CartPage from './Views/CartPage';
+import Page404 from './Views/Page404';
 
 function App() {
 
@@ -30,7 +31,11 @@ function App() {
                     <Route exact path='/cart'>
                         <CartPage />
                     </Route>
+                    <Route path=''>
+                        <Page404 />
+                    </Route>
                 </Switch>
+
                 <Footer />
             </Router>
         </div>
