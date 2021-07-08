@@ -35,7 +35,7 @@ const productsArray = [
         name: 'Pull-over Mountains',
         price: '28.99 EUR',
         productId: '202',
-        categoryId: 'Landscapes' 
+        categoryId: 'Landscapes'
     },
     {
         image: landscape4,
@@ -109,42 +109,41 @@ const productsArray = [
     },
 ]
 
-let productsToShow = [];
+// let productsToShow = [];
 
 function ProductList() {
 
-    let location = useLocation();
-    console.log(location)
+    // let location = useLocation();
+    // console.log(location)
 
-    if (location.pathname === "/categories/Landscapes") {
-        productsToShow = productsArray.filter(product => product.categoryId === "Landscapes")
-    } else if (location.pathname === "/categories/Flowers") {
-        productsToShow = productsArray.filter(product => product.categoryId === "Flowers")
-    } else {
-        productsToShow = productsArray.filter(product => product.categoryId === "Cats")
-    }
+    // if (location.pathname === "/categories/Landscapes") {
+    //     productsToShow = productsArray.filter(product => product.categoryId === "Landscapes")
+    // } else if (location.pathname === "/categories/Flowers") {
+    //     productsToShow = productsArray.filter(product => product.categoryId === "Flowers")
+    // } else {
+    //     productsToShow = productsArray.filter(product => product.categoryId === "Cats")
+    // }
 
+    const productCards = productsArray.map((product, index) => {
+        return (<div className="col-3">
+            <div className="card">
+                <NavLink to={`/categories/${product.categoryId}/${product.productId}`} className="nav-link">
+                    <img src={product.image} className="card-img-top img-fluid rounded" alt="..." />
+                </NavLink>
+                <div className="card-body">
+                    <NavLink to={`/categories/${product.categoryId}/${product.productId}`} className="nav-link">
+                        <h5 className="card-title">{product.name}</h5>
+                    </NavLink>
+                    <p className="card-text">{product.price}</p>
+                </div>
+            </div>
+        </div>)
+    })
 
     return (
         <div className="container">
             <div className="row mb-5">
-                {productsToShow.map((product) => {
-                    return (
-                        <div className="col ">
-                            <div className="card">
-                                <NavLink to={{
-                                        pathname:`/categories/${product.categoryId}/${product.productId}`,
-                                    }} className="nav-link">
-                                    <img src={product.image} className="card-img-top img-fluid rounded" alt="..." />
-                                </NavLink>
-                                <div className="card-body">
-                                    <h5 className="card-title">{product.name}</h5>
-                                    <p className="card-text">{product.price}</p>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
+                    {productCards}
             </div>
         </div>
     )

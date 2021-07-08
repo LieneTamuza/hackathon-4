@@ -6,7 +6,7 @@ function Breadcrumb({ paths }) {
             return <li className="breadcrumb-item" key={index}><NavLink to={path.link}>{path.label}</NavLink></li>
         }
 
-        return <li className="breadcrumb-item active" key={index}>{path.label}</li>
+        return <li className="breadcrumb-item" key={index}>{path.label}</li>
     })
 
     return (

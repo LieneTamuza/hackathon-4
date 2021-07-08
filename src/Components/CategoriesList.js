@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import Category1 from '../Assets/Images/Category1.JPG';
 import Category2 from '../Assets/Images/Category2.JPG';
 import Category3 from '../Assets/Images/Category3.JPG';
@@ -27,6 +27,8 @@ const categoriesArray = [
 ]
 
 function CategoriesList() {
+    
+    const {categoryId} = useParams();
 
     const breadcrumbPaths = [
         { link: '/', label: "Home" },
